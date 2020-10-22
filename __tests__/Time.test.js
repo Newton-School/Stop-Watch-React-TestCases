@@ -1,7 +1,6 @@
-import Time from '../Time'
 import React from 'react';
-import { shallow,mount } from 'enzyme';
-
+import { mount } from 'enzyme';
+import Time from "../components/Time";
 
 describe('Time',()=>{
     it('renders without crashing',()=>{

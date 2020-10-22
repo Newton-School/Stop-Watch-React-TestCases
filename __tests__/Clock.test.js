@@ -1,8 +1,6 @@
-import Clock from '../Clock'
-import { act } from "react-dom/test-utils";
+import Clock from '../components/Clock'
 import React from "react";
 import { shallow,mount } from "enzyme"
-import { render, unmountComponentAtNode } from "react-dom";
 
 
 
